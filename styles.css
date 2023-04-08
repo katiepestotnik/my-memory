@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 830px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "top-one top-two top-three top-four"
+    "second-one second-two second-three second-four"
+    "third-one third-two third-three third-four"
+    "last-one last-two last-three last-four";
+    gap: 10px;
+}
+
+.box {
+    border: 5px solid #28D6C0;
+    height: 200px;
+    width: 200px
+}
+.back {
+    background-color: #F12B7E;
+}
+.front {
+    background-color: #F9E22C;
+}
+#one {
+    grid-area: top-one;
+}
+#two {
+    grid-area: top-two;
+}
+#three {
+    grid-area: top-three;
+}
+#four {
+    grid-area: top-four;
+}
+#five {
+    grid-area: second-one;
+}
+#six {
+    grid-area: second-two;
+}
+#seven {
+    grid-area: second-three;
+}
+#eight {
+    grid-area: second-four;
+}
+#nine {
+    grid-area: third-one;
+}
+#ten {
+    grid-area: third-two;
+}
+#eleven {
+    grid-area: third-three;
+}
+#twelve {
+    grid-area: third-four;
+}
+#thirteen {
+    grid-area: last-one;
+}
+#fourteen {
+    grid-area: last-two;
+}
+#fifteen {
+    grid-area: last-three;
+}
+#sixteen {
+    grid-area: last-four;
+}
